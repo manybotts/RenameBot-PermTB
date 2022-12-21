@@ -3,11 +3,13 @@ import os
 class Config(object):
 
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5819824799:AAHzJoDiqDzniXtNpNDo3emgj2GiPJnVefE
+
+")
 
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 5166878))
+    API_HASH = os.environ.get("fdafb41f9a67f40e34a6c67f47730a92")
     # Get these values from my.telegram.org
 
     # Array to store users who are authorized to use the bot
@@ -26,5 +28,5 @@ class Config(object):
     CHUNK_SIZE = 128
 
     # Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://tron:tron@cluster0.xs0gvih.mongodb.net/?retryWrites=true&w=majority")
 
